@@ -1,0 +1,5 @@
+cukes\AppConfig.class
+cukes\ResponseApi.class
+cukes\steps\StepDefinitions.class
+cukes\RunCukesIT.class
+cukes\CucumberContext.class

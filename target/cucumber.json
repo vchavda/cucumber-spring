@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "making a basic rest call",
+        "description": "",
+        "id": "basic-feature-file;making-a-basic-rest-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1646093400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I make a test call using this url: \u0027https://reqres.in/api/unknown\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://reqres.in/api/unknown",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.iMakeATestCallUsingThisUrlHttpsReqresInApiUnknown(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 536600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get a \u0027200\u0027 response code returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.iGetAResponseCodeReturned(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "basic feature file",
+    "description": "",
+    "id": "basic-feature-file",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
