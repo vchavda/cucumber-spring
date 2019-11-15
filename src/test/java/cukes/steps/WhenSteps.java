@@ -1,6 +1,5 @@
 package cukes.steps;
 
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -11,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 //@ContextConfiguration(classes = {AppConfig.class})
 //@ComponentScan(basePackages = {"cukes.support.**"})
-public class StepDefinitions {
+public class WhenSteps {
 
 
     @Autowired
@@ -19,8 +18,6 @@ public class StepDefinitions {
 
     @When("^I make a test call using this url: '(.*)'$")
     public void iMakeATestCallUsingThisUrlHttpsReqresInApiUnknown(String val) {
-
-
 
         RestAssured.baseURI = "https://reqres.in/api/unknown";
         Response response = null;
@@ -45,8 +42,7 @@ public class StepDefinitions {
     }
 
 
-    @Then("^I get a '(\\d+)' response code returned$")
-    public void iGetAResponseCodeReturned(int code) {
-        assertThat(code).isEqualTo(respApi.getResponseCode());
-    }
+
+
+
 }
