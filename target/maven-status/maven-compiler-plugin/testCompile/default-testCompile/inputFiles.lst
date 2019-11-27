@@ -1,5 +1,10 @@
-C:\workspace\Sandbox\src\test\java\cukes\steps\StepDefinitions.java
-C:\workspace\Sandbox\src\test\java\cukes\ResponseApi.java
+C:\workspace\Sandbox\src\test\java\restAssuredUtils\CustomLogFilter.java
+C:\workspace\Sandbox\src\test\java\restAssuredUtils\ResponseApi.java
+C:\workspace\Sandbox\src\test\java\seleniumUtils\pages\Main.java
+C:\workspace\Sandbox\src\test\java\cukes\steps\ThenSteps.java
 C:\workspace\Sandbox\src\test\java\cukes\CucumberContext.java
-C:\workspace\Sandbox\src\test\java\cukes\AppConfig.java
+C:\workspace\Sandbox\src\test\java\cukes\steps\Hooks.java
 C:\workspace\Sandbox\src\test\java\cukes\RunCukesIT.java
+C:\workspace\Sandbox\src\test\java\cukes\steps\GivenSteps.java
+C:\workspace\Sandbox\src\test\java\cukes\steps\WhenSteps.java
+C:\workspace\Sandbox\src\test\java\seleniumUtils\Base.java

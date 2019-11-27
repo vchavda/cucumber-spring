@@ -2,34 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3833848a-329b-4893-8a3e-c044b3007ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/GivenSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/ThenSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/Baseutils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredUtils/CustomLogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/applications.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/selenium.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/CucumberContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/CucumberContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredUtils/ResponseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredUtils/ResponseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/Baseutils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/restAssured.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/report-feature_test-feature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/report-tag_tag1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Sandbox.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/CucumberContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/CucumberContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/RunCukesIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/RunCukesIT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/StepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssuredUtils/ResponseApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssuredUtils/ResponseApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumUtils/Baseutils.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,19 +78,20 @@
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\Sandbox\src\test\java" />
+      <recent name="C:\workspace\Sandbox\src\test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\Sandbox\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinitions" />
       <recent name="lambda" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\Sandbox\src\test\resources\features" />
       <recent name="C:\workspace\Sandbox\src\test\java" />
-      <recent name="C:\workspace\Sandbox\src\test" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -99,6 +103,7 @@
       <command value="mvn clean verify serenity:aggregate" />
       <command value="mvn clean verify -Dcucumber.options=&quot;--tags ''@tag1&quot;" />
       <command value="mvn clean verify" />
+      <command value="mvn clean verify -Dcucumber.options=&quot;--tags ''@restassured&quot;" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -113,15 +118,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: test">
-    <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Making a basic rest API call using examples">
+    <configuration name="Scenario: Making a basic rest API call using examples" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
-      <option name="GLUE" value="cukes.steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/restAssured.feature" />
+      <option name="GLUE" value="cucumber.api.spring cukes.steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Sandbox" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: test" />
+      <option name="NAME_FILTER" value="^Making a basic rest API call using examples$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Making a basic rest API call using examples$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Making a basic rest API call using examples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -132,15 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: making a basic rest call" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: making a basic rest API call" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/restAssured.feature" />
       <option name="GLUE" value="cukes.steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Sandbox" />
-      <option name="NAME_FILTER" value="^making a basic rest call$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^making a basic rest call$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: making a basic rest call" />
+      <option name="NAME_FILTER" value="^making a basic rest API call$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^making a basic rest API call$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: making a basic rest API call" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -151,32 +157,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest.getList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.GetRequest" />
-      <option name="METHOD_NAME" value="getList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Cucumber java.Scenario: making a basic rest call" />
-      <item itemvalue="Cucumber java.Feature: test" />
-      <item itemvalue="JUnit.GetRequest.getList" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: test" />
-        <item itemvalue="Cucumber java.Scenario: making a basic rest call" />
-        <item itemvalue="JUnit.GetRequest.getList" />
+        <item itemvalue="Cucumber java.Scenario: Making a basic rest API call using examples" />
+        <item itemvalue="Cucumber java.Scenario: making a basic rest API call" />
       </list>
     </recent_temporary>
   </component>

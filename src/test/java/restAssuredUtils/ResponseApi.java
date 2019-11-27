@@ -4,6 +4,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ResponseApi {
+    private Integer responseCode = 0;
+    private String responseValue = "";
+
+    private String requestValue = "";
 
     public Integer getResponseCode() {
         return responseCode;
@@ -13,8 +17,22 @@ public class ResponseApi {
         this.responseCode = responseCode;
     }
 
-    private Integer responseCode = 0;
 
+    public String getResponseValue() {
+        return responseValue;
+    }
+
+    public void setResponseValue(String responseValue) {
+        this.responseValue = responseValue;
+    }
+
+    public String getRequestValue() {
+        return requestValue;
+    }
+
+    public void setRequestValue(String requestValue) {
+        this.requestValue = requestValue;
+    }
 
 
 }

@@ -1,5 +1,10 @@
-cukes\AppConfig.class
-cukes\ResponseApi.class
-cukes\steps\StepDefinitions.class
+cukes\steps\GivenSteps.class
+seleniumUtils\pages\Main.class
+cukes\steps\ThenSteps.class
 cukes\RunCukesIT.class
+seleniumUtils\Base.class
+cukes\steps\Hooks.class
+restAssuredUtils\CustomLogFilter.class
+cukes\steps\WhenSteps.class
+restAssuredUtils\ResponseApi.class
 cukes\CucumberContext.class

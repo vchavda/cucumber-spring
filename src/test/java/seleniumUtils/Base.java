@@ -3,7 +3,7 @@ package seleniumUtils;
 import org.openqa.selenium.WebDriver;
 
 
-public class Baseutils {
+public class Base {
 
     public WebDriver Driver;
 

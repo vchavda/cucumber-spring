@@ -3,16 +3,47 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 7986200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4331800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WhenSteps.myBeforeStep()"
+            }
+          }
+        ],
         "line": 4,
-        "name": "making a basic rest call",
+        "name": "making a basic rest API call",
         "description": "",
-        "id": "basic-feature-file;making-a-basic-rest-call",
+        "id": "rest-assured-feature;making-a-basic-rest-api-call",
+        "after": [
+          {
+            "result": {
+              "duration": 581300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.addData(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1646093400,
+              "duration": 1663194200,
               "status": "passed"
             },
             "line": 5,
@@ -24,25 +55,28 @@
                   "offset": 36
                 }
               ],
-              "location": "StepDefinitions.iMakeATestCallUsingThisUrlHttpsReqresInApiUnknown(String)"
+              "location": "WhenSteps.iMakeATestCallUsingThisUrlHttpsReqresInApiUnknown(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 536600,
+              "duration": 3021000,
               "status": "passed"
             },
+            "output": [
+              "\nAPi Request\nRequest method: GET\nRequest URI: https://reqres.in/api/unknown\nForm Params: {}\nRequest Param: {}\nHeaders: Accept\u003d*/*\nCookies: \nProxy: null\nBody: null\n******************************\nAPi Response\n\n\nStatus Code: 200\nStatus Line: HTTP/1.1 200 OK\nResponse Cookies: __cfduid\u003ddb77acc4b70a4579809475cfa1ecdcc1f1574890724;Path\u003d/;Domain\u003d.reqres.in;Secure;HttpOnly;Expires\u003d27/12/19 21:38\nResponse Content Type: application/json; charset\u003dutf-8\nResponse Headers: Date\u003dWed, 27 Nov 2019 21:38:44 GMT\nContent-Type\u003dapplication/json; charset\u003dutf-8\nTransfer-Encoding\u003dchunked\nConnection\u003dkeep-alive\nSet-Cookie\u003d__cfduid\u003ddb77acc4b70a4579809475cfa1ecdcc1f1574890724; expires\u003dFri, 27-Dec-19 21:38:44 GMT; path\u003d/; domain\u003d.reqres.in; HttpOnly; Secure\nX-Powered-By\u003dExpress\nAccess-Control-Allow-Origin\u003d*\nEtag\u003dW/\"238-5a7Dh+3q/ellzkBhujWVa9k122s\"\nVia\u003d1.1 vegur\nCache-Control\u003dmax-age\u003d14400\nCF-Cache-Status\u003dHIT\nAge\u003d5467\nExpect-CT\u003dmax-age\u003d604800, report-uri\u003d\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\nVary\u003dAccept-Encoding\nServer\u003dcloudflare\nCF-RAY\u003d53c740328ad76a9b-LHR\nContent-Encoding\u003dgzip\nResponse Body: \n{\n    \"page\": 1,\n    \"per_page\": 6,\n    \"total\": 12,\n    \"total_pages\": 2,\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"cerulean\",\n            \"year\": 2000,\n            \"color\": \"#98B2D1\",\n            \"pantone_value\": \"15-4020\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"fuchsia rose\",\n            \"year\": 2001,\n            \"color\": \"#C74375\",\n            \"pantone_value\": \"17-2031\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"true red\",\n            \"year\": 2002,\n            \"color\": \"#BF1932\",\n            \"pantone_value\": \"19-1664\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"aqua sky\",\n            \"year\": 2003,\n            \"color\": \"#7BC4C4\",\n            \"pantone_value\": \"14-4811\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"tigerlily\",\n            \"year\": 2004,\n            \"color\": \"#E2583E\",\n            \"pantone_value\": \"17-1456\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"blue turquoise\",\n            \"year\": 2005,\n            \"color\": \"#53B0AE\",\n            \"pantone_value\": \"15-5217\"\n        }\n    ]\n}"
+            ],
             "line": 6,
-            "name": "I get a \u0027200\u0027 response code returned",
+            "name": "I get a numeric \u0027200\u0027 response code returned",
             "match": {
               "arguments": [
                 {
                   "val": "200",
-                  "offset": 9
+                  "offset": 17
                 }
               ],
-              "location": "StepDefinitions.iGetAResponseCodeReturned(int)"
+              "location": "ThenSteps.iGetAResponseCodeReturned(int)"
             },
             "keyword": "Then "
           }
@@ -50,15 +84,19 @@
         "tags": [
           {
             "line": 3,
-            "name": "@tag1"
+            "name": "@restassured"
+          },
+          {
+            "line": 3,
+            "name": "@rest-ts001"
           }
         ]
       }
     ],
-    "name": "basic feature file",
+    "name": "rest assured feature",
     "description": "",
-    "id": "basic-feature-file",
+    "id": "rest-assured-feature",
     "keyword": "Feature",
-    "uri": "test.feature"
+    "uri": "restAssured.feature"
   }
 ]

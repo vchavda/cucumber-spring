@@ -49,28 +49,28 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@tag1", ] ,
+        labels:  [ "@rest-ts001",  "@restassured", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00, ]             },
+                data:  [ 100.00,  100.00, ]             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00, ]             },
+                data:  [ 0.00,  0.00, ]             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00, ]             },
+                data:  [ 0.00,  0.00, ]             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00, ]             },
+                data:  [ 0.00,  0.00, ]             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00, ]             }
+                data:  [ 0.00,  0.00, ]             }
         ]
     };
 
@@ -129,9 +129,9 @@ $(document).ready(function() {
   </thead>
   <tbody>
     <tr class="info">
-      <td>foo</td>
+      <td>Cucumber Report</td>
               <td>1.0.0</td>
-            <td>14 Nov 2019, 13:14</td>
+            <td>27 Nov 2019, 21:38</td>
     </tr>
   </tbody>
 </table>
@@ -193,7 +193,7 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-tag_tag1.html">@tag1</a></td>
+        <td class="tagname"><a href="report-tag_rest-ts001.html">@rest-ts001</a></td>
         
         <td      class="passed"    >2</td>
         <td >0</td>
@@ -206,7 +206,24 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="1646630000">1.646</td>
+        <td class="duration" data-value="1666215200">1.666</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="report-tag_restassured.html">@restassured</a></td>
+        
+        <td      class="passed"    >2</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">2</td>
+
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="1666215200">1.666</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
@@ -214,19 +231,19 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-            <td>2</td>
+            <td>4</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
+      <td>4</td>
+
+      <td>2</td>
       <td>0</td>
       <td>2</td>
 
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-
-      <td class="duration">1.646</td>
-      <td>1</td>
+      <td class="duration">3.332</td>
+      <td>2</td>
     </tr>
     <tr>
       <td></td>
