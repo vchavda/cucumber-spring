@@ -6,7 +6,16 @@
         "before": [
           {
             "result": {
-              "duration": 6978800,
+              "duration": 3590396900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ThenSteps.myBeforeStep()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2290700,
               "status": "passed"
             },
             "match": {
@@ -15,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 4205400,
+              "duration": 2099014900,
               "status": "passed"
             },
             "match": {
@@ -24,13 +33,13 @@
           }
         ],
         "line": 4,
-        "name": "making a basic rest API call",
+        "name": "Making a call to Wikepedia",
         "description": "",
-        "id": "rest-assured-feature;making-a-basic-rest-api-call",
+        "id": "selenium-feature;making-a-call-to-wikepedia",
         "after": [
           {
             "result": {
-              "duration": 422400,
+              "duration": 282100,
               "status": "passed"
             },
             "match": {
@@ -43,60 +52,90 @@
         "steps": [
           {
             "result": {
-              "duration": 1633092000,
+              "duration": 413148100,
               "status": "passed"
             },
             "line": 5,
-            "name": "I make a test call using this url: \u0027https://reqres.in/api/unknown\u0027",
+            "name": "I am on the landing page: \u0027https://en.wikipedia.org/wiki/Main_Page\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "https://reqres.in/api/unknown",
-                  "offset": 36
+                  "val": "https://en.wikipedia.org/wiki/Main_Page",
+                  "offset": 27
                 }
               ],
-              "location": "WhenSteps.iMakeATestCallUsingThisUrlHttpsReqresInApiUnknown(String)"
+              "location": "WhenSteps.iAmOnTheLandingPage(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3119200,
+              "duration": 1223666200,
               "status": "passed"
             },
-            "output": [
-              "\nAPi Request\nRequest method: GET\nRequest URI: https://reqres.in/api/unknown\nForm Params: {}\nRequest Param: {}\nHeaders: Accept\u003d*/*\nCookies: \nProxy: null\nBody: null\n******************************\nAPi Response\n\n\nStatus Code: 200\nStatus Line: HTTP/1.1 200 OK\nResponse Cookies: __cfduid\u003dd5fc5fdded782fbef01815fd758703d871574891235;Path\u003d/;Domain\u003d.reqres.in;Secure;HttpOnly;Expires\u003d27/12/19 21:47\nResponse Content Type: application/json; charset\u003dutf-8\nResponse Headers: Date\u003dWed, 27 Nov 2019 21:47:15 GMT\nContent-Type\u003dapplication/json; charset\u003dutf-8\nTransfer-Encoding\u003dchunked\nConnection\u003dkeep-alive\nSet-Cookie\u003d__cfduid\u003dd5fc5fdded782fbef01815fd758703d871574891235; expires\u003dFri, 27-Dec-19 21:47:15 GMT; path\u003d/; domain\u003d.reqres.in; HttpOnly; Secure\nX-Powered-By\u003dExpress\nAccess-Control-Allow-Origin\u003d*\nEtag\u003dW/\"238-5a7Dh+3q/ellzkBhujWVa9k122s\"\nVia\u003d1.1 vegur\nCache-Control\u003dmax-age\u003d14400\nCF-Cache-Status\u003dHIT\nAge\u003d5978\nExpect-CT\u003dmax-age\u003d604800, report-uri\u003d\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\nVary\u003dAccept-Encoding\nServer\u003dcloudflare\nCF-RAY\u003d53c74caf49db6a11-LHR\nContent-Encoding\u003dgzip\nResponse Body: \n{\n    \"page\": 1,\n    \"per_page\": 6,\n    \"total\": 12,\n    \"total_pages\": 2,\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"cerulean\",\n            \"year\": 2000,\n            \"color\": \"#98B2D1\",\n            \"pantone_value\": \"15-4020\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"fuchsia rose\",\n            \"year\": 2001,\n            \"color\": \"#C74375\",\n            \"pantone_value\": \"17-2031\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"true red\",\n            \"year\": 2002,\n            \"color\": \"#BF1932\",\n            \"pantone_value\": \"19-1664\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"aqua sky\",\n            \"year\": 2003,\n            \"color\": \"#7BC4C4\",\n            \"pantone_value\": \"14-4811\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"tigerlily\",\n            \"year\": 2004,\n            \"color\": \"#E2583E\",\n            \"pantone_value\": \"17-1456\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"blue turquoise\",\n            \"year\": 2005,\n            \"color\": \"#53B0AE\",\n            \"pantone_value\": \"15-5217\"\n        }\n    ]\n}"
-            ],
             "line": 6,
-            "name": "I get a numeric \u0027200\u0027 response code returned",
+            "name": "type: \"Kilimanjaro\" into message field",
             "match": {
               "arguments": [
                 {
-                  "val": "200",
-                  "offset": 17
+                  "val": "Kilimanjaro",
+                  "offset": 7
                 }
               ],
-              "location": "ThenSteps.iGetAResponseCodeReturned(int)"
+              "location": "WhenSteps.typeIntoMessageField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2848500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the title of the page is: \u0027Mount Kilimanjaro - Wikipedia\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mount Kilimanjaro - Wikipedia",
+                  "offset": 27
+                }
+              ],
+              "location": "ThenSteps.theTitleOfThePageIsMountKilimanjaroWikipedia(String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1021869900,
+              "status": "passed"
+            },
+            "output": [
+              "\nAPi Request\nAPi Response"
+            ],
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "WhenSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
           {
             "line": 3,
-            "name": "@restassured"
+            "name": "@selenium1"
           },
           {
             "line": 3,
-            "name": "@rest-ts001"
+            "name": "@sel-ts001"
           }
         ]
       }
     ],
-    "name": "rest assured feature",
+    "name": "selenium feature",
     "description": "",
-    "id": "rest-assured-feature",
+    "id": "selenium-feature",
     "keyword": "Feature",
-    "uri": "restAssured.feature"
+    "uri": "selenium.feature"
   }
 ]

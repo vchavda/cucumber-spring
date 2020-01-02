@@ -123,6 +123,7 @@ public class GetRequest {
         assertThat(values).doesNotHaveDuplicates().doesNotContainNull();
         assertThat(values).hasSize(6);
         assertThat(values).contains("cerulean");
+        assertThat(response.getStatusCode()).isEqualTo(200);
         assertThat(values).isNotNull();
         assertThat(values).doesNotHaveDuplicates();
         assertThat(values.size()).isGreaterThan(1).isLessThan(10);

@@ -1,6 +1,6 @@
 cukes\steps\GivenSteps.class
-seleniumUtils\pages\Main.class
 cukes\steps\ThenSteps.class
+seleniumUtils\pages\LandingPage.class
 cukes\RunCukesIT.class
 seleniumUtils\Base.class
 cukes\steps\Hooks.class

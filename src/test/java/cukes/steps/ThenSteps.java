@@ -11,6 +11,7 @@ public class ThenSteps {
     @Autowired
     private ResponseApi respApi;
 
+
     @Then("^I get a numeric '(\\d+)' response code returned$")
     public void iGetAResponseCodeReturned(int code) {
         assertThat(code).isEqualTo(respApi.getResponseCode());
@@ -20,6 +21,5 @@ public class ThenSteps {
     public void iGetAResponseCodeStringReturned(int code) {
         assertThat(code).isEqualTo(respApi.getResponseCode());
     }
-
 
 }

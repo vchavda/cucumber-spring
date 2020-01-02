@@ -1,17 +1,23 @@
 package seleniumUtils;
 
 import org.openqa.selenium.WebDriver;
+import seleniumUtils.pages.LandingPage;
 
 
-public class Base {
+public class Base  {
 
-    public WebDriver Driver;
+    public WebDriver driver;
 
-    public WebDriver getDriver() {
-        return Driver;
+    public Base (WebDriver driver)
+    {
+        this.driver = driver;
     }
 
-    public void setDriver(WebDriver driver) {
-        Driver = driver;
+    public LandingPage navigateToWebApp(String url) {
+        driver.navigate().to(url);
+        return new LandingPage(driver);
     }
+
+
+
 }
