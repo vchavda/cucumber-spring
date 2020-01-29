@@ -3,15 +3,26 @@ package cukes.steps;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import restAssuredUtils.ResponseApi;
-import seleniumUtils.Base;
 
 public class Hooks {
+    @Value("${testing}")
+    private String testing;
+
+    @Value("${screenshotEveryStep}")
+    private boolean screenshotEveryStep;
+
+    @Autowired
+    public WebDriver driver;
+
     @Autowired
     private ResponseApi respApi;
 
-    private Base base;
     public Hooks() {
         System.out.println("Constructor");
     }
@@ -32,7 +43,16 @@ public class Hooks {
 
     @After
     public void addData(Scenario scenario) {
-        scenario.write("\n" + "APi Request" + respApi.getRequestValue() + "\n" + "APi Response" + respApi.getResponseValue());
+        System.out.println("testing type is :" + testing);
+        if (testing.equals("api")) {
+            scenario.write("\n" + "APi Request" + respApi.getRequestValue() + "\n" + "APi Response" + respApi.getResponseValue());
+        }
+        else if (testing.equals("selenium")) {
+            if (scenario.isFailed() || screenshotEveryStep) {
+                final byte[] screenshot = ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.BYTES);
+                scenario.embed(screenshot,"image/png");
+            }
+        }
     }
 
 }

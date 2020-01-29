@@ -63,7 +63,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>3.5.2</version>
         </dependency>
     </dependencies>
     <!--  we need the next part if you are using Lambda with maven otherwise it thinks you are using java version 1.5  -->

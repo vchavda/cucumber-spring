@@ -2,26 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3833848a-329b-4893-8a3e-c044b3007ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_5_v20170502.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_5_v20170502.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_5_v20170502.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_5_v20170502.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_5_v20170502.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_5_v20170502.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_5_v20170502.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WikiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/dessktopBrowser/ChromeBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/dessktopBrowser/FirefoxBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/WikiLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/WikiLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_5_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/GivenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/GivenSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/CucumberContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/CucumberContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/ThenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/ThenSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/LandingPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/applications.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/restAssured.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selenium.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selenium.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selenium.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/seleniumWiki.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/report-feature_restAssured-feature.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/report-tag_rest-ts001.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/report-tag_restassured.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" afterDir="false" />
@@ -30,13 +71,11 @@
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/applications.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/GivenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/GivenSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/ThenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/ThenSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/CucumberContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/CucumberContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/restAssured.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/selenium.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/selenium.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumUtils/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumUtils/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumUtils/pages/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/selenium.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumUtils/Base.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +107,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1SuxoL2IOyzuWqnlWnzY3ELtzKP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
@@ -76,26 +117,28 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\Sandbox\src\test\java" />
-      <recent name="C:\workspace\Sandbox\src\test" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="stepDefinitions" />
-      <recent name="lambda" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\Sandbox\src\test\resources\features" />
       <recent name="C:\workspace\Sandbox\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seleniumUtils.dessktopBrowser" />
+      <recent name="cukes.steps" />
+      <recent name="stepDefinitions" />
+      <recent name="lambda" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\Sandbox\src\test\java" />
+      <recent name="C:\workspace\Sandbox\src\test" />
     </key>
   </component>
   <component name="RunAnythingCache">

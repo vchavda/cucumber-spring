@@ -1,12 +1,10 @@
 package seleniumUtils;
 
 import org.openqa.selenium.WebDriver;
-import seleniumUtils.pages.LandingPage;
 
+public class BasePage {
 
-public class Base  {
-
-    public WebDriver driver;
+    /*public WebDriver driver;
 
     public Base (WebDriver driver)
     {
@@ -16,8 +14,12 @@ public class Base  {
     public LandingPage navigateToWebApp(String url) {
         driver.navigate().to(url);
         return new LandingPage(driver);
-    }
+    }*/
 
+    protected WebDriver driver;
+    void goTo(String url) {
+        driver.get(url);
+    }
 
 
 }

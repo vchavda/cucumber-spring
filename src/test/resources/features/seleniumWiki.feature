@@ -1,4 +1,4 @@
-Feature: selenium feature
+Feature: selenium wikipedia page
 
   @selenium1 @sel-ts001
   Scenario: Making a call to Wikepedia
@@ -7,5 +7,7 @@ Feature: selenium feature
     And the title of the page is: 'Mount Kilimanjaro - Wikipedia'
     And the language is changed to French
     And the language is changed to English
-    And close the browser
-    #And click on the home menu link
+    And click on the logn link
+    And enter username: 'someusername'
+    And enter password: 'somepassword'
+
