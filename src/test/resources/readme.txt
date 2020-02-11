@@ -16,7 +16,12 @@ shorten command line to classpath file.
 Add CroPath to your chrome browser to get the xpath for any element
 https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo?hl=en
 ---------------------------------------------------------------------------------------------------------------------------------------
+TO DEBUG:
+to debug in inteliJ  put your mouse over the scenario and right-cick and select debug "scenario etc etc "  then edit the run configuration and
+remove Spring from the glue. In my case I should just have cukes.steps
+on VM options enter the mvn options ie -Dcucumber.options="--tags @seleasy-ts006"  -Dspring.profiles.active=firefox (note dont put mvn at the front)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 DTO: If you create a DTO and you have child objects
 eg:
 

@@ -3,13 +3,15 @@ package restAssured;
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.Option;
+import com.jayway.jsonpath.Predicate;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
+import static org.apache.commons.lang3.StringUtils.split;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /*{
@@ -66,6 +68,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GetRequest {
 
+    private Configuration configuration;
+
+
+
+
+
     @Test
     public void getStstusCode() {
         RestAssured.baseURI = "https://reqres.in/api/users/1";
@@ -90,9 +98,11 @@ public class GetRequest {
     public void getList() {
 
         Configuration configuration = Configuration.defaultConfiguration();
-        configuration.addOptions(Option.ALWAYS_RETURN_LIST);
+        this.configuration = Configuration.builder().options(new Option[]{Option.ALWAYS_RETURN_LIST}).build();
+        //configuration.addOptions(Option.ALWAYS_RETURN_LIST);
 
         boolean boolTest  = false;
+
 
         RestAssured.baseURI = "https://reqres.in/api/unknown";
         Response response = null;
@@ -115,6 +125,18 @@ public class GetRequest {
         System.out.println("Status Code: " + response.getStatusCode());
 
        List<String> values = JsonPath.parse(response.getBody().asString()).read("$.data[*].name");
+
+       // testing Mat Robinsions (this works well when you need to split the string using another deliminator eg  | instead of comma
+        // for example if the items you seperating also has commas ie oxford,england, nairobi,kenya then you can define it as
+        // oxford,england|nairobi,kenya and this would then split it correctly.
+        String val = "cerulean,fuchsia rose,true red,aqua sky,tigerlily,blue turquoise";
+        //List<Map<String, Object>> listOfNames = runQueryExpectingMap(response.getBody().asString(), "data[*].name");
+        List listOfNames =  (List) ((List)JsonPath.using(this.configuration).parse(response.getBody().asString()).read("$.data[*].name", new Predicate[0]));
+        List<String> inputValues = Arrays.stream(split(val,",")).collect(Collectors.toList());
+        Collections.sort(inputValues);
+        assertThat(new HashSet<>(inputValues)).isEqualTo(new HashSet<>(listOfNames));
+
+
 
         assertThat(colors).containsExactlyInAnyOrder("green", "Blue", "red");
         assertThat(values).containsExactlyInAnyOrder("cerulean", "fuchsia rose","true red","aqua sky","tigerlily","blue turquoise");

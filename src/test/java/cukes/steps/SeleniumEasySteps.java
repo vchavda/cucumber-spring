@@ -36,4 +36,54 @@ public class SeleniumEasySteps {
         seleniumEasyHomePage.testDropDownListDemo();
     }
 
+    @Then("^test inputForm demo$")
+    public void testInputFormDemo() {
+        seleniumEasyHomePage.testInputForm();
+    }
+
+    @Then("^test bootStrapDatePicket demo$")
+    public void testBootStrapDatePicketDemo() throws InterruptedException {
+        seleniumEasyHomePage.testBootStrapDatePiker();
+    }
+
+    @Then("^test tablePagination demo$")
+    public void testPaginationDemo() {
+        seleniumEasyHomePage.testTablePagination();
+    }
+
+
+    @Then("^test tableFilter demo$")
+    public void testTableFilterDemo() {
+        seleniumEasyHomePage.testTableFilter();
+    }
+
+    @Then("^test tableSortandSearch demo$")
+    public void testTableSortandSearchDemo() {
+        seleniumEasyHomePage.testTableSortandSearch();
+    }
+
+    @Then("^test slider demo$")
+    public void testSliderDemo() throws InterruptedException {
+        seleniumEasyHomePage.testSlider();
+    }
+
+    @Then("^test bootStrap alert demo$")
+    public void testBootStrapDemo() throws InterruptedException {
+        seleniumEasyHomePage.testBootStrapAlert();
+    }
+
+    @Then("^test bootStrap modal alert demo$")
+    public void testBootStrapModalAlertDemo() {
+        seleniumEasyHomePage.testBootStrapModalAlert();
+    }
+
+    @Then("^test windows popup modal demo$")
+    public void testWindowsPopupModalDemo() {
+        seleniumEasyHomePage.testWindowsPopupModal();
+    }
+
+    @Then("^test bootstrap list box demo$")
+    public void testBootstrapListBoxDemo() {
+        seleniumEasyHomePage.testBootstrapListBox();
+    }
 }
