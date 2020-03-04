@@ -86,4 +86,9 @@ public class SeleniumEasySteps {
     public void testBootstrapListBoxDemo() {
         seleniumEasyHomePage.testBootstrapListBox();
     }
+
+    @Then("^test drag and drop$")
+    public void testDragAndDropDemo() throws InterruptedException {
+        seleniumEasyHomePage.testDragAndDrop();
+    }
 }

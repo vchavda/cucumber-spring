@@ -5,11 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/SeleniumEasySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/SeleniumEasySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/SeleniumEasyHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/SeleniumEasyHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/seleniumEasy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/seleniumEasy.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
@@ -197,16 +197,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java</url>
-          <line>131</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

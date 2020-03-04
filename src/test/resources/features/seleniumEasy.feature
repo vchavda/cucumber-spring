@@ -71,3 +71,8 @@ Feature: selenium easy
   Scenario: Making a call to SeleniumEasy - Bootstrap Lis tBox
     Given My landing page is: 'https://www.seleniumeasy.com/test/'
     Then test bootstrap list box demo
+
+  @selenium1 @seleasy-ts015
+  Scenario: Making a call to SeleniumEasy -Drag and Drop
+    Given My landing page is: 'https://www.seleniumeasy.com/test/'
+    Then test drag and drop

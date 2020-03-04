@@ -89,3 +89,10 @@ pulic class ExampleDTO {
         "identifer": 1233,
     }
 ]
+
+-------------------------------
+TO DO
+More on actions class
+More test using CSS selectors
+Waits - explicit, implicit and fluent
+Selenium and excel

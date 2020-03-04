@@ -66,12 +66,9 @@ import static org.assertj.core.api.Assertions.assertThat;
         }*/
 
 
-public class GetRequest {
+public class GetRequest<function> {
 
     private Configuration configuration;
-
-
-
 
 
     @Test
@@ -124,22 +121,20 @@ public class GetRequest {
         System.out.println("Response : " + response.asString());
         System.out.println("Status Code: " + response.getStatusCode());
 
-       List<String> values = JsonPath.parse(response.getBody().asString()).read("$.data[*].name");
+
 
        // testing Mat Robinsions (this works well when you need to split the string using another deliminator eg  | instead of comma
         // for example if the items you seperating also has commas ie oxford,england, nairobi,kenya then you can define it as
         // oxford,england|nairobi,kenya and this would then split it correctly.
+        //option one use this method
         String val = "cerulean,fuchsia rose,true red,aqua sky,tigerlily,blue turquoise";
-        //List<Map<String, Object>> listOfNames = runQueryExpectingMap(response.getBody().asString(), "data[*].name");
-        List listOfNames =  (List) ((List)JsonPath.using(this.configuration).parse(response.getBody().asString()).read("$.data[*].name", new Predicate[0]));
-        List<String> inputValues = Arrays.stream(split(val,",")).collect(Collectors.toList());
-        Collections.sort(inputValues);
-        assertThat(new HashSet<>(inputValues)).isEqualTo(new HashSet<>(listOfNames));
+        assertThat(this.checkIfValuesExistsInResponse(val,"data[*].name",response.getBody().asString())).isTrue();
 
-
-
+        //option 2 use this and compare the string using assertJ
+        List<String> values = JsonPath.parse(response.getBody().asString()).read("$.data[*].name");
         assertThat(colors).containsExactlyInAnyOrder("green", "Blue", "red");
         assertThat(values).containsExactlyInAnyOrder("cerulean", "fuchsia rose","true red","aqua sky","tigerlily","blue turquoise");
+
         assertThat(values).doesNotContain("Invalid");
         assertThat(values).isNotEmpty();
         assertThat(values).doesNotHaveDuplicates().doesNotContainNull();
@@ -162,5 +157,16 @@ public class GetRequest {
 
 
 
+    // this function takes a comma delimitted values that should be expected back in the json response (exaactly those values - no more or less).
+    // you prvide the commma delimitted list and the node of the json that where to find the actual values
+    // the comma dellimited list are placed in a list and so id the actual values
+    // finaly they are converted to hashset to remove duplicate values and compared.
+    //if you want to have a different delimitter instead of a comma incase the list itself has commas eg "nairobi,kenya"
+    private boolean  checkIfValuesExistsInResponse(String valuesToCompare, String node, String responseBody) {
+        List listOfValuesFromResponseBody =  (List) ((List)JsonPath.using(this.configuration).parse(responseBody).read("$."+node, new Predicate[0]));
+        List<String> expectedValues = Arrays
+                .stream(split(valuesToCompare, ",")).sorted().collect(Collectors.toList());
+        return (new HashSet<>(expectedValues)).equals(new HashSet<>(listOfValuesFromResponseBody));
+    }
 
 }

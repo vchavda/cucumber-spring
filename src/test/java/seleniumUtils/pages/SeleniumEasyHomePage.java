@@ -1,6 +1,7 @@
 package seleniumUtils.pages;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -223,9 +224,31 @@ public class SeleniumEasyHomePage {
     public void testBootstrapListBox() {
         driver.findElement(By.xpath("//a[@class='dropdown-toggle'][contains(text(),'List Box')]")).click();
         driver.findElement(By.linkText("Bootstrap List Box")).click();
-        //WebElement list1 = driver.findElements(By.xpath("//li[@class='list-group-item active']"));
+        driver.findElement(By.xpath("//li[@class='list-group-item'][contains(text(),'bootstrap')]")).click();
+        driver.findElement(By.xpath("//li[@class='list-group-item'][contains(text(),'Morbi')]")).click();
+        driver.findElement(By.xpath("//span[@class='glyphicon glyphicon-chevron-right']")).click();
+    }
 
 
+    public void testDragAndDrop() throws InterruptedException {
+        driver.findElement(By.xpath("//a[@class='dropdown-toggle'][contains(text(),'Others')]")).click();
+        driver.findElement(By.linkText("Drag and Drop")).click();
+        WebElement wbFrom3 = driver.findElement(By.xpath("//span[contains(text(),'Draggable 3')]"));
+        WebElement wbFrom4 = driver.findElement(By.xpath("//span[contains(text(),'Draggable 4')]"));
+        WebElement wbTo = driver.findElement(By.xpath("//div[@id='mydropzone']"));
+        Actions act=new Actions(driver);
+
+        Action dragAndDrop = act.clickAndHold(wbFrom3)
+                .moveToElement(wbTo)
+                .release(wbTo)
+                .build();
+        dragAndDrop.perform();
+
+
+        // you can also use the command below too
+        act.dragAndDrop(wbFrom4, wbTo).build().perform();
+
+        //drag and drop does not seem to work in chrome
 
     }
 
