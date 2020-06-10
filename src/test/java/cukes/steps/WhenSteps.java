@@ -55,6 +55,8 @@ public class WhenSteps extends Base {
             System.out.println("\n" + "APi Response" + customLogFilter.getResponseBuilderLogs());
             respApi.setRequestValue(customLogFilter.getRequestBuilderLogs().toString());
             respApi.setResponseValue(customLogFilter.getResponseBuilderLogs().toString());
+            respApi.setResponseTime(response.getTime());
+
         } else {
             System.out.println("NULL !");
         }

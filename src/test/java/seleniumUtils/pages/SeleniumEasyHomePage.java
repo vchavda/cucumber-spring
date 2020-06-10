@@ -33,6 +33,7 @@ public class SeleniumEasyHomePage {
         driver.findElement(By.id("sum2")).sendKeys("7");
         driver.findElement(By.xpath("//button[contains(text(),'Get Total')]")).click();
         driver.findElement(By.xpath("//button[contains(text(),'Get Total')]")).sendKeys(Keys.RETURN);
+        driver.findElements(By.cssSelector(".btn-default"));
         driver.manage().timeouts().implicitlyWait(30, SECONDS);
         String text = driver.findElement((By.xpath("//span[@id='displayvalue']"))).getText();
         System.out.println("text is " + text);

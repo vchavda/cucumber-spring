@@ -141,6 +141,8 @@ public class GetRequest<function> {
         assertThat(values).hasSize(6);
         assertThat(values).contains("cerulean");
         assertThat(response.getStatusCode()).isEqualTo(200);
+        // if we want a custom message if it fails then we can do this
+        assertThat(response.getStatusCode()).withFailMessage("this is my fail message").isEqualTo(200);
         assertThat(values).isNotNull();
         assertThat(values).doesNotHaveDuplicates();
         assertThat(values.size()).isGreaterThan(1).isLessThan(10);

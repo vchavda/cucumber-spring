@@ -6,8 +6,18 @@ import org.springframework.stereotype.Component;
 public class ResponseApi {
     private Integer responseCode = 0;
     private String responseValue = "";
-
     private String requestValue = "";
+    private long responseTime = 0;
+
+    public long getResponseTime() {
+        return responseTime;
+    }
+
+    public void setResponseTime(long responseTime) {
+        this.responseTime = responseTime;
+    }
+
+
 
     public Integer getResponseCode() {
         return responseCode;

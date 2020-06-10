@@ -1,3 +1,7 @@
+==========assertJ docs =================
+https://joel-costigliola.github.io/assertj/assertj-core.html
+
+
 To run API:
 mvn clean verify -Dcucumber.options="--tags @rest-ts001"  -Dspring.profiles.active=chrome (this is nothing to do with API but we have @profile
 so code needs to inistilaze the bean
@@ -96,3 +100,8 @@ More on actions class
 More test using CSS selectors
 Waits - explicit, implicit and fluent
 Selenium and excel
+
+
+=====================
+demo websites:
+http://automationpractice.com/index.php

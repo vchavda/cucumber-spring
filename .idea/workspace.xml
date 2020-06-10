@@ -4,9 +4,11 @@
     <list default="true" id="3833848a-329b-4893-8a3e-c044b3007ca6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/SeleniumEasySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/SeleniumEasySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredUtils/ResponseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredUtils/ResponseApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/SeleniumEasyHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/SeleniumEasyHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/seleniumEasy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/seleniumEasy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/applications.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" afterDir="false" />
@@ -17,7 +19,12 @@
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/applications.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssuredUtils/ResponseApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssuredUtils/ResponseApi.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/temp/api-automation/api-automation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -84,6 +91,12 @@
     </key>
   </component>
   <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle tasks" flag="false" />
+      <visibility group="Maven goals" flag="false" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+    </myKeys>
     <option name="myCommands">
       <command value="mvn -Dcucumber.options=&quot;--tags ''@tag1&quot;" />
       <command value="mvn install" />

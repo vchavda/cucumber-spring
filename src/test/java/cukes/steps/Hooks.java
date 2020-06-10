@@ -44,6 +44,8 @@ public class Hooks {
     @After
     public void addData(Scenario scenario) {
         System.out.println("testing type is :" + testing);
+        System.out.println("Respone time: " + respApi.getResponseTime());
+
         if (testing.equals("api")) {
             scenario.write("\n" + "APi Request" + respApi.getRequestValue() + "\n" + "APi Response" + respApi.getResponseValue());
         }
