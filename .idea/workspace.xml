@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3833848a-329b-4893-8a3e-c044b3007ca6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredUtils/ResponseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredUtils/ResponseApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/SeleniumEasyHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/pages/SeleniumEasyHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/applications.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compareLists/CompareTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compareLists/CompareTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/dessktopBrowser/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/dessktopBrowser/ChromeBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumUtils/dessktopBrowser/FirefoxBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumUtils/dessktopBrowser/FirefoxBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restAssured/GetRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/compareLists/CompareTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/compareLists/CompareTwoLists.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
@@ -19,12 +15,9 @@
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/applications.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssuredUtils/ResponseApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssuredUtils/ResponseApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,20 +114,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetRequest.getList">
-    <configuration name="Scenario: Making a call to SeleniumEasy - Windoes Popup Modal" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/seleniumEasy.feature" />
-      <option name="GLUE" value="cukes.steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+  <component name="RunManager" selected="Application.SortingLists">
+    <configuration name="Compare2ListBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compareLists.Compare2ListBasic" />
       <module name="Sandbox" />
-      <option name="NAME_FILTER" value="^Making a call to SeleniumEasy \- Windoes Popup Modal$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Making a call to SeleniumEasy \- Windoes Popup Modal$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Making a call to SeleniumEasy - Windoes Popup Modal" />
-      <option name="VM_PARAMETERS" value="-Dcucumber.options=&quot;--tags @seleasy-ts013&quot;  -Dspring.profiles.active=firefox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="compareLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compareLists.CompareTwoLists" />
+      <module name="Sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compareLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compareLists.SortingLists" />
+      <module name="Sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compareLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,15 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: Making a call to SeleniumEasy - Windoes Popup Modal" />
+      <item itemvalue="Application.CompareTwoLists" />
+      <item itemvalue="Application.SortingLists" />
+      <item itemvalue="Application.Compare2ListBasic" />
       <item itemvalue="JUnit.GetRequest.getList" />
       <item itemvalue="JUnit.restAssured in Sandbox" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingLists" />
+        <item itemvalue="Application.Compare2ListBasic" />
+        <item itemvalue="Application.CompareTwoLists" />
         <item itemvalue="JUnit.GetRequest.getList" />
         <item itemvalue="JUnit.restAssured in Sandbox" />
-        <item itemvalue="Cucumber java.Scenario: Making a call to SeleniumEasy - Windoes Popup Modal" />
       </list>
     </recent_temporary>
   </component>

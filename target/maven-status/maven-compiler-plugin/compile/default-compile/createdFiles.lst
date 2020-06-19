@@ -1,4 +1,6 @@
 Main.class
+compareLists\SortingLists.class
+compareLists\Compare2ListBasic.class
 lambda\LambdaForLoop.class
 lambda\LambdaStreamToArray.class
 restAssured\GetRequest.class

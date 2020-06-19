@@ -2,6 +2,7 @@ package seleniumUtils.dessktopBrowser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,7 +25,10 @@ public class FirefoxBrowser {
     public WebDriver getDriver() {
         System.out.println("browser is Firefox");
         System.setProperty("webdriver.gecko.driver", gekoDriver);
-        WebDriver driver = new FirefoxDriver();
+        FirefoxOptions options = new FirefoxOptions();
+        // add this option to run this in headless mode.
+        //options.addArguments("--headless");
+        WebDriver driver = new FirefoxDriver(options);
         driver.manage().window().maximize();
         return driver;
     }

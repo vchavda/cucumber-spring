@@ -32,6 +32,10 @@ public class ChromeBrowser {
         options.addArguments("--allow-http-screen-capture");
         options.addArguments("chrome.switches", "--disable-extensions");
         options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
+        // add this arguments to make it run headless (currently does not work with this version of chrome)
+        //options.addArguments("--headless");
+        //options.addArguments("disable-gpu");
+        //options.addArguments("--window-size=1600,900");
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);

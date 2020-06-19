@@ -1,17 +1,20 @@
 package compareLists;
 
 import com.google.common.collect.Ordering;
-import com.sun.org.apache.xpath.internal.operations.Or;
 
-import javax.swing.text.StyledEditorKit;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class CompareTwoLists {
+//https://www.baeldung.com/java-remove-duplicates-from-list removing duplicates from a list.
+
 
     public static void main(String[] args) {
 
-        List<String> listA = Arrays.asList("Hello htest", "World!", "How - how", "Are", "You");
-        List<String> listB = Arrays.asList("You", "Are", "How - how", "World!", "Hello htest");
+        List<String> listA = Arrays.asList("Hello htest", "World!", "How", "how", "Are", "You");
+        List<String> listB = Arrays.asList("You", "Are", "How", "how", "World!", "Hello htest");
         List<String> listC = Arrays.asList("D", "C", "B", "A");
         List<String> listD = Arrays.asList("A", "B", "C", "D");
 
