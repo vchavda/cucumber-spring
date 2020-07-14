@@ -9,9 +9,12 @@ C:\workspace\Sandbox\src\test\java\cukes\steps\ThenSteps.java
 C:\workspace\Sandbox\src\test\java\cukes\steps\Hooks.java
 C:\workspace\Sandbox\src\test\java\seleniumUtils\pages\WikiLandingPage.java
 C:\workspace\Sandbox\src\test\java\cukes\RunCukesIT.java
+C:\workspace\Sandbox\src\test\java\restAssuredUtils\HeaderBuilder.java
 C:\workspace\Sandbox\src\test\java\cukes\steps\WikiSteps.java
 C:\workspace\Sandbox\src\test\java\cukes\steps\SeleniumEasySteps.java
 C:\workspace\Sandbox\src\test\java\cukes\steps\Base.java
 C:\workspace\Sandbox\src\test\java\cukes\CucumberContext.java
+C:\workspace\Sandbox\src\test\java\restAssuredUtils\ReusableSpecifications.java
+C:\workspace\Sandbox\src\test\java\restAssuredUtils\ParamsBuilder.java
 C:\workspace\Sandbox\src\test\java\cukes\steps\GivenSteps.java
 C:\workspace\Sandbox\src\test\java\cukes\steps\WhenSteps.java

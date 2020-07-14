@@ -40,6 +40,7 @@ public class Hooks {
         // this is where before hook for Selenium specific code is set
     }
 
+    private static int NF_API_RESPONSE_TIME = 5000;
 
     @After
     public void addData(Scenario scenario) {
@@ -55,6 +56,8 @@ public class Hooks {
                 scenario.embed(screenshot,"image/png");
             }
         }
+        // assertion to check that the response time for each scenario is within tolrance set
+        //assertThat(respApi.getResponseTime()).withFailMessage("API response time of " + respApi.getResponseTime() + "exceeds " + NF_API_RESPONSE_TIME).isLessThanOrEqualTo(NF_API_RESPONSE_TIME);
     }
 
 }

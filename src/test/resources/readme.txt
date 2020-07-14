@@ -6,6 +6,10 @@ To run API:
 mvn clean verify -Dcucumber.options="--tags @rest-ts001"  -Dspring.profiles.active=chrome (this is nothing to do with API but we have @profile
 so code needs to inistilaze the bean
 
+to run api above with passing -DtargtEnv
+mvn clean verify -Dcucumber.options="--tags @rest-ts001"  -Dspring.profiles.active=chrome -DtargetEnv=in
+
+
 To run Selenium
 mvn clean verify -Dcucumber.options="--tags @sel-ts001"  -Dspring.profiles.active=chrome  (for chrome browser)
 mvn clean verify -Dcucumber.options="--tags @sel-ts001"  -Dspring.profiles.active=firefox  (for firefox browser)

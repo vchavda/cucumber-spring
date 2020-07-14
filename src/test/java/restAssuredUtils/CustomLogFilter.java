@@ -12,6 +12,10 @@ public class CustomLogFilter implements Filter {
     private StringBuilder requestBuilderLogs;
     private StringBuilder responseBuilderLogs;
 
+    public CustomLogFilter() {
+
+    }
+
     @Override
     public Response filter(FilterableRequestSpecification filterableRequestSpecification, FilterableResponseSpecification filterableResponseSpecification, FilterContext filterContext) {
         Response response = filterContext.next(filterableRequestSpecification, filterableResponseSpecification);
@@ -65,6 +69,7 @@ public class CustomLogFilter implements Filter {
     public void setResponseBuilderLogs(StringBuilder responseBuilderLogs) {
         this.responseBuilderLogs = responseBuilderLogs;
     }
+
 
 
 }

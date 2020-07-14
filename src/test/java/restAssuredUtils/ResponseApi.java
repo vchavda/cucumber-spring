@@ -3,7 +3,7 @@ package restAssuredUtils;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ResponseApi {
+public class    ResponseApi {
     private Integer responseCode = 0;
     private String responseValue = "";
     private String requestValue = "";
