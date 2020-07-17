@@ -1,15 +1,13 @@
-restAssuredUtils\ParamsBuilder.class
 seleniumUtils\dessktopBrowser\FirefoxBrowser.class
 cukes\steps\ThenSteps.class
 cukes\RunCukesIT.class
-restAssuredUtils\HeaderBuilder.class
+restAssuredUtils\Jsonutils.class
 restAssuredUtils\CustomLogFilter.class
 cukes\steps\WhenSteps.class
 cukes\steps\WikiSteps.class
 cukes\steps\SeleniumEasySteps.class
 cukes\CucumberContext.class
 cukes\steps\GivenSteps.class
-restAssuredUtils\ReusableSpecifications.class
 seleniumUtils\pages\WikiLandingPage.class
 seleniumUtils\pages\SeleniumEasyHomePage.class
 seleniumUtils\pages\WikiLogin.class

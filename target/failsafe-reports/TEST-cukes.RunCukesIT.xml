@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cukes.RunCukesIT" time="8.943" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cukes.RunCukesIT" time="0.586" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="cucumber.options" value="--tags @rest-ts002"/>
@@ -67,9 +67,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given a user spcifies query parameters:" classname="Scenario: Making a basic rest API call using examples" time="0"/>
-  <testcase name="Given I submit dynamic headers" classname="Scenario: Making a basic rest API call using examples" time="0"/>
-  <testcase name="When I make a request to this url: &apos;https://reqres.in/api/unknown&apos;" classname="Scenario: Making a basic rest API call using examples" time="0"/>
-  <testcase name="Then I get a &apos;200&apos; response code returned" classname="Scenario: Making a basic rest API call using examples" time="0"/>
-  <testcase name="Scenario: Making a basic rest API call using examples" classname="Scenario: Making a basic rest API call using examples" time="0.057"/>
+  <testcase name="initializationError" classname="cukes.RunCukesIT" time="0.002">
+    <error message="Error parsing feature file restAssured.feature" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Error parsing feature file restAssured.feature
+Caused by: gherkin.lexer.LexingError: 
+Lexing error on line 37: '\
+%_FEATURE_END_%'. See http://wiki.github.com/cucumber/gherkin/lexingerror for more information.
+</error>
+  </testcase>
 </testsuite>

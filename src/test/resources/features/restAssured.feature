@@ -26,6 +26,11 @@ Feature: rest assured feature
 
     When I make a request to this url: 'https://reqres.in/api/unknown'
     Then I get a '200' response code returned
-
+    And the node: 'data[*].id' is sorted in 'ascending' order
+    * the response should contain this node: 'data[0].id' and value: '1'
+    * the header: 'X-Powered-By' is populated
+    * the response should only contain these values: 'cerulean|fuchsia rose|true red|aqua sky|tigerlily|blue turquoise' for node: 'data[*].name'
+    * the number of of occurance of the node: 'data[*].name' in the response should be: '6'
+    * this node: 'data[0].name' should be returned in the response
 
 

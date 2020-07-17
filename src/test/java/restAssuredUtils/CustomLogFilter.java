@@ -2,6 +2,7 @@ package restAssuredUtils;
 
 import io.restassured.filter.Filter;
 import io.restassured.filter.FilterContext;
+import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import io.restassured.specification.FilterableRequestSpecification;
 import io.restassured.specification.FilterableResponseSpecification;
@@ -11,6 +12,8 @@ import org.springframework.stereotype.Component;
 public class CustomLogFilter implements Filter {
     private StringBuilder requestBuilderLogs;
     private StringBuilder responseBuilderLogs;
+    private String LastResponse;
+    private Headers headers;
 
     public CustomLogFilter() {
 
@@ -19,6 +22,8 @@ public class CustomLogFilter implements Filter {
     @Override
     public Response filter(FilterableRequestSpecification filterableRequestSpecification, FilterableResponseSpecification filterableResponseSpecification, FilterContext filterContext) {
         Response response = filterContext.next(filterableRequestSpecification, filterableResponseSpecification);
+        LastResponse = response.getBody().prettyPrint();
+        headers = response.getHeaders();
         requestBuilderLogs = new StringBuilder();
         requestBuilderLogs.append("\n");
         requestBuilderLogs.append("Request method: " + (filterableRequestSpecification.getMethod()));
@@ -71,5 +76,19 @@ public class CustomLogFilter implements Filter {
     }
 
 
+    public String getLastResponse() {
+        return  LastResponse;
+    }
 
+    public void setLastResponse(String lastResponse) {
+        LastResponse = lastResponse;
+    }
+
+    public Headers getHeaders() {
+        return headers;
+    }
+
+    public void setHeaders(Headers headers) {
+        this.headers = headers;
+    }
 }
