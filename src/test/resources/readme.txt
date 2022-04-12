@@ -109,3 +109,11 @@ Selenium and excel
 =====================
 demo websites:
 http://automationpractice.com/index.php
+
+
+==========================================
+The test for restassured only demos GET request but you can also do post/patch/delete/put
+for post request the format is something like...
+requestSpecification.body(myJsonBody).post(myEndPoint)
+
+

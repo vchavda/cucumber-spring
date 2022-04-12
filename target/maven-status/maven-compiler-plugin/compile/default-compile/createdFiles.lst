@@ -4,7 +4,9 @@ compareLists\Compare2ListBasic.class
 lambda\LambdaForLoop.class
 lambda\LambdaStreamToArray.class
 restAssured\GetRequest.class
+stringfunctions\StringFunctions.class
 lambda\LambdaStream2.class
 compareLists\CompareTwoLists.class
 lambda\LambdaStreamFilter1.class
 lambda\LambdaStream1.class
+seleniumExamples\AutoIt.class

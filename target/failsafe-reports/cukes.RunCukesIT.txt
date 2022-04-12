@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cukes.RunCukesIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.586 sec <<< FAILURE! - in cukes.RunCukesIT
-initializationError(cukes.RunCukesIT)  Time elapsed: 0.002 sec  <<< ERROR!
-cucumber.runtime.CucumberException: Error parsing feature file restAssured.feature
-Caused by: gherkin.lexer.LexingError: 
-Lexing error on line 37: '\
-%_FEATURE_END_%'. See http://wiki.github.com/cucumber/gherkin/lexingerror for more information.
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.416 sec - in cukes.RunCukesIT
