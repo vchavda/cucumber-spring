@@ -6,24 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3833848a-329b-4893-8a3e-c044b3007ca6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/ThenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/ThenSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cukes/steps/WhenSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/applications.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/restAssured.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/seleniumWiki.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/seleniumWiki.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sandbox-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-cukes.RunCukesIT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/cukes.RunCukesIT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/applications.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/ThenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/ThenSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cukes/steps/WhenSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/restAssured.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/restAssured.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +44,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
